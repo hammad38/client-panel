@@ -6,7 +6,6 @@ import {connect} from 'react-redux';
 import {firestoreConnect} from 'react-redux-firebase';
 
 import Spinner from '../layout/Spinner';
-import classnames from "classnames";
 
 class EditClient extends Component {
   constructor(props) {
