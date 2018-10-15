@@ -25,7 +25,7 @@ class App extends Component {
                 <Route exact path="/client/add" component={AddClient}/>
                 <Route exact path="/client/edit/:id" component={EditClient}/>
                 <Route exact path="/client/:id" component={DetailClient}/>
-                <Route exact path="/auth/login" component={Login}/>
+                <Route exact path="/login" component={Login}/>
               </Switch>
             </div>
           </div>
